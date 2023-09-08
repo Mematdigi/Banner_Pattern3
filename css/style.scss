@@ -1,0 +1,84 @@
+@import "header";
+@import "quick_links";
+@import "about";
+@import "services";
+@import "choose";
+@import "gallery";
+@import "testimonial";
+@import "footer";
+@import "feature";
+@import "contact";
+
+// Slider Section 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+// Cta Section
+
+.cta_section{
+    background: linear-gradient(45deg, rgb(0 78 58), #ff8a0059), url(../images/cta_section.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta_content{
+    width: 60% !important;
+    .sub_title{
+        color: #ff8a00;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    .main_title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+    p{
+        color: #eeeeee !important;
+    }
+}
+.cta_button{
+    width: 40% !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    .cta_btn{
+        border-radius: 20px;
+        padding: 7px 32px;
+        background: #0c5e5c;
+        color: white;
+    }
+}
+
+.services_categories_banner{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(126deg, #0c5e5ca3, rgba(205, 97, 51, 0.7607843137)), url(../images/cat_banner.jpg);
+    h3{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+   
